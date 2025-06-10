@@ -1,0 +1,14 @@
+[user]
+	name = CelDaemon
+	email = celdaemon@voidgroup.net
+	signingkey = 542F41EDC0305974
+[commit]
+	gpgsign = true
+[init]
+	defaultBranch = main
+[credential]
+	helper = store
+[diff]
+	tool = vscode
+[push]
+	autoSetupRemote = true
