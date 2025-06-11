@@ -12,3 +12,5 @@
 	tool = vscode
 [push]
 	autoSetupRemote = true
+[url "https://github.com/CelDaemon/"]
+	insteadOf = "cel:"
