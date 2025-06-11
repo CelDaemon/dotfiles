@@ -1,0 +1,47 @@
+set autoindent
+set boldtext
+set multibuffer
+set nohelp
+set quickblank
+set linenumbers
+
+bind ^Q exit main
+bind ^Q exit browser
+bind ^Q exit help
+
+bind ^S savefile main
+
+bind ^W writeout main
+
+bind ^O insert main
+
+
+bind ^D findprevious main
+bind ^D findprevious browser
+bind ^D findprevious help
+
+unbind ^G all
+
+bind ^G findnext main
+bind ^G findnext browser
+bind ^G findnext help
+
+bind ^R replace main
+
+bind ^T gotoline main
+
+bind ^P location main
+
+bind ^Z undo main
+
+bind ^Y redo main
+
+bind ^A mark main
+
+bind ^X cut main
+
+bind ^C copy main
+
+bind ^V paste main
+
+bind ^E execute main
